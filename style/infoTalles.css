@@ -1,0 +1,15 @@
+/* Tabla de talles */
+
+table {
+    border: 1px solid var(--rojo);
+}
+
+.t-head {
+    background-color: var(--rojo);
+    color: var(--white);
+}
+
+.size {
+    background-color: var(--rojo);
+    color: var(--white);
+}

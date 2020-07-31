@@ -1,0 +1,67 @@
+.cont-cards {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    margin-top: 3rem;
+}
+
+.colection-card {
+    max-height: 100%;
+    width: 100%;
+}
+
+.colection-card img {
+    width: 100%;
+    height: 100%;
+}
+
+.cont-sub {
+    display: flex;
+    max-width: 50%;    
+    flex-wrap: wrap;    
+}
+
+.sub-cards {
+    width: 50%;
+    height: 50%;
+}
+
+.sub-cards img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Seccion Marcas */
+
+.cont-brandie {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 50px 0px 50px 0px;
+    width: 100%;
+}
+
+.brandie-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brandie-bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    background-color: var(--white);
+}
+
+/* lanzamientos */
+
+.cont-launch {
+    display: block;
+    max-width: 100%;
+}
+
+.launch img {
+    width: 100%;
+}
