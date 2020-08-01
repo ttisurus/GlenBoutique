@@ -41,18 +41,23 @@
     width: 100%;
 }
 
-.brandie-top {
+.brandie-top, 
+.brandie-bot {
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
 .brandie-bot {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 80px;
-    background-color: var(--white);
+    margin-top: 5rem;
+}
+
+.cont-brandie img {
+    width: 220px;
+}
+
+#tiento {
+    width: 220px;
+    height: 60px;
 }
 
 /* lanzamientos */
