@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
         integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- styles -->
     <link rel="stylesheet" href="../style/style.css">
@@ -20,30 +21,33 @@
 
         <!-- contenedor superior, carrito, login y buscador -->
         <div class="cont-header">
-            <div class="cont-logo">
-                <a href="/index.html">
-                    <img id="logo" src="./img/Glen_sBoutiqueLogo.png" alt="logo">
-                </a>
-            </div>
             <div class="cont-interface">
-                <input type="search">
-                <div class="back-icons">
-                    <i class="fas fa-search icons">
-                    </i>
+                <div class="cont-search">
+                    <input type="search">
+                    <span class="material-icons">
+                        search
+                    </span>
                 </div>
-                <div class="back-icons">
-                    <a href="#">
-                        <i class="far fa-user icons"></i>
+                <div class="cont-logo">
+                    <a href="/index.html">
+                        <img id="logo" src="../img/Glen_sBoutiqueLogo.png" alt="logo">
                     </a>
                 </div>
-                <div class="back-icons">
+                <div class="cont-users">
                     <a href="#">
-                        <i class="far fa-heart icons"></i>
+                        <span class="material-icons">
+                            perm_identity
+                        </span>
                     </a>
-                </div>
-                <div class="back-icons">
                     <a href="#">
-                        <i class="fas fa-shopping-cart icons"></i>
+                        <span class="material-icons">
+                            favorite_border
+                        </span>
+                    </a>
+                    <a href="#">
+                        <span class="material-icons">
+                            shopping_cart
+                        </span>
                     </a>
                 </div>
             </div>
@@ -52,47 +56,49 @@
         <!-- nav -->
         <div class="cont-nav">
             <div class="navbar">
-                <ul class="cont-list">
-                    <li>
-                        <a href="../index.html">
-                            HOME</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropbtn">
-                            MARCAS</a>
-                        <div class="dropdown-content">
-                            <a href="./sigry.html">
-                                Sigry</a>
-                            <a href="./tiento.html">
-                                Tiento</a>
-                            <a href="./marcelakoury.html">
-                                Marcela Koury</a>
-                            <a href="./koury.html">
-                                Koury</a>
-                            <a href="./andressa.html">
-                                Andressa</a>
-                            <a href="./lody.html">
-                                Lody</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="./lenceria.html">
-                            LENCERIA</a></li>
-                    <li>
-                        <a href="./fitness.html">
-                            FITNESS</a></li>
-                    <li>
-                        <a href="./pijamas.html">
-                            PIJAMAS</a></li>
-                    <li>
-                        <a href="./accesorios.html">
-                            ACCESORIOS</a></li>
-                    <li>
-                        <a href="./niños.html">
-                            NIÑOS</a></li>
-                    <li>
-                        <a href="./hombres.html">
-                            HOMBRES</a></li>
-                </ul>
+                <nav>
+                    <ul class="cont-list">
+                        <li>
+                            <a href="../index.html">
+                                HOME</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropbtn">
+                                MARCAS</a>
+                            <div class="dropdown-content">
+                                <a href="./sigry.html">
+                                    Sigry</a>
+                                <a href="./tiento.html">
+                                    Tiento</a>
+                                <a href="./marcelakoury.html">
+                                    Marcela Koury</a>
+                                <a href="./koury.html">
+                                    Koury</a>
+                                <a href="./andressa.html">
+                                    Andressa</a>
+                                <a href="./lody.html">
+                                    Lody</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="./lenceria.html">
+                                LENCERIA</a></li>
+                        <li>
+                            <a href="./fitness.html">
+                                FITNESS</a></li>
+                        <li>
+                            <a href="./pijamas.html">
+                                PIJAMAS</a></li>
+                        <li>
+                            <a href="./accesorios.html">
+                                ACCESORIOS</a></li>
+                        <li>
+                            <a href="./niños.html">
+                                NIÑOS</a></li>
+                        <li>
+                            <a href="./hombres.html">
+                                HOMBRES</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
@@ -137,19 +143,19 @@
                 <div id="help" class="link-footer">
                     <h3>Help & Info</h3>
                     <!-- Informacion Complementaria -->
-                    <a href="./contacto.html">Contacto</a>
-                    <a href="./infoTalles.html">Tabla de Talles</a>
-                    <a href="./preguntas.html">Preguntas Frecuentes</a>
-                    <a href="./aboutUs.html">Sobre Nosotros</a>
+                    <a href="../pages/contacto.html">Contacto</a>
+                    <a href="../pages/infoTalles.html">Tabla de Talles</a>
+                    <a href="../pages/preguntas.html">Preguntas Frecuentes</a>
+                    <a href="../pages/aboutUs.html">Sobre Nosotros</a>
                 </div>
                 <div id="info" class="link-footer">
                     <h3>Otra info</h3>
                     <!-- Informacion Complementaria -->
-                    <a href="./contacto.html">
+                    <a href="../pages/contacto.html">
                         <span>Contacto</span></a>
-                    <a href="./infoTalles.html">Tabla de Talles</a>
-                    <a href="./preguntas.html">Preguntas Frecuentes</a>
-                    <a href="./aboutUs.html">Sobre Nosotros</a>
+                    <a href="../pages/infoTalles.html">Tabla de Talles</a>
+                    <a href="../pages/preguntas.html">Preguntas Frecuentes</a>
+                    <a href="../pages/aboutUs.html">Sobre Nosotros</a>
                 </div>
                 <div id="cont-media" class="link-footer">
                     <h3>Redes Sociales</h3>

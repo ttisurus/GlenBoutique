@@ -23,14 +23,19 @@ ul, li, a {
     cursor: pointer;
 }
 
-.cont-header {
+header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 100%;
-    margin: 0 30px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
+/* .cont-header {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+} 
+ */
+ 
 #logo {
     width: 180px;
     height: 180px;
@@ -39,28 +44,44 @@ ul, li, a {
 .cont-interface {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-.back-icons {
+.cont-search {
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: var(--rojo);
-    border-radius: 50%;
-    width: 1.5rem;
-    height: 1.5rem;
-    margin: 0.5rem;
 }
 
-.icons {
-    color: var(--white);
+.cont-users {
+    top: 20px;
+    right: 5%;
+    margin: 0;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.material-icons {
+    color: black;
 }
 
 /* Navbar */
 
-.cont-nav {
-    margin-top: 1rem;
+nav {
+    display: flex;
+    justify-content: center;
+    font-size: 1.083em;
+    letter-spacing: .1em;
+    text-align: center;
+    line-height: 3.5;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
 }
+
+/* .cont-nav {
+    margin-top: 1rem;
+} */
 
 .cont-list {
     display: flex;
@@ -159,7 +180,7 @@ form #input-newslatter {
     margin-right: 0px;
 }
 
-.button:hover{
+.button:hover {
     background: #000000;
     color: #f5f3f3;
     opacity: .8;
