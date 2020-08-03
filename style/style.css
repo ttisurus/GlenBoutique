@@ -35,7 +35,7 @@ header {
     max-width: 100%;
 } 
  */
- 
+
 #logo {
     width: 180px;
     height: 180px;
@@ -178,6 +178,7 @@ form #input-newslatter {
     left: 0;
     letter-spacing: .15em;
     margin-right: 0px;
+    cursor: pointer;
 }
 
 .button:hover {
