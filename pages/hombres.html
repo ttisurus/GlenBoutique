@@ -12,6 +12,7 @@
 
     <!-- styles -->
     <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/imageCards.css">
 </head>
 
 <body>
@@ -105,34 +106,92 @@
 
     <!-- Contenido principal, como ofertas, nuevos lanzamientos -->
     <main>
+        <div class="main-contImage">
 
-        <!-- filtro de marcas -->
-        <label for="marca">Marca</label> <br>
-        <input type="checkbox" name="tiento" id="tiento">
-        <span>Tiento</span> <br>
-        <input type="checkbox" name="tiento" id="tiento">
-        <span>Sigry</span> <br>
-        <input type="checkbox" name="tiento" id="tiento">
-        <span>Marcela Koury</span> <br>
-        <input type="checkbox" name="tiento" id="tiento">
-        <span>Koury</span> <br>
-        <input type="checkbox" name="tiento" id="tiento">
-        <span>Andressa</span> <br>
+            <!-- filtro de marcas -->
+            <div class="cont-filter">
+                <label for="marca">Marca</label>
+                <span>
+                    <input type="checkbox" name="tiento" id="tiento">
+                    Tiento</span>
+                <span><input type="checkbox" name="sigry" id="sigry">
+                    Sigry</span>
+                <span><input type="checkbox" name="mk" id="mk">
+                    Marcela Koury</span>
+                <span><input type="checkbox" name="koury" id="koury">
+                    Koury</span>
+                <span><input type="checkbox" name="andressa" id="andressa">
+                    Andressa</span>
+                <span><input type="checkbox" name="lody" id="lody">
+                    Lody</span>
 
-        <!-- filtro de talles -->
-        <label for="talle">Talles</label> <br>
-        <input type="checkbox" name="xs" id="xs">
-        <label for="xs">XS</label> <br>
-        <input type="checkbox" name="s" id="s">
-        <label for="s">S</label> <br>
-        <input type="checkbox" name="m" id="m">
-        <label for="m">M</label> <br>
-        <input type="checkbox" name="l" id="l">
-        <label for="l">L</label> <br>
-        <input type="checkbox" name="xl" id="xl">
-        <label for="xl">XL</label> <br>
-        <input type="checkbox" name="xxl" id="xxl">
-        <label for="xxl">XXL</label> <br>
+                <!-- filtro de talles -->
+                <label for="talle">Talles</label>
+                <span><input type="checkbox" name="xs" id="xs">
+                    <label for="xs">XS</label></span>
+                <span><input type="checkbox" name="s" id="s">
+                    <label for="s">S</label></span>
+                <span><input type="checkbox" name="m" id="m">
+                    <label for="m">M</label></span>
+                <span><input type="checkbox" name="l" id="l">
+                    <label for="l">L</label></span>
+                <span><input type="checkbox" name="xl" id="xl">
+                    <label for="xl">XL</label></span>
+                <span><input type="checkbox" name="xxl" id="xxl">
+                    <label for="xxl">XXL</label></span>
+            </div>
+
+            <!-- Tarjeta de imagenes -->
+            <div class="cont-cardImage">
+                <div class="cardImage">
+                    <img src="../img/SigryPortada.jpg" alt="1 imagen">
+                </div>
+                <div class="cardImage">
+                    <img src="../img/SigryPortada.jpg" alt="1 imagen">
+                </div>
+                <div class="cardImage">
+                    <img src="../img/SigryPortada.jpg" alt="1 imagen">
+                </div>
+                <div class="cardImage">
+                    <img src="../img/SigryPortada.jpg" alt="1 imagen">
+                </div>
+                <div class="cardImage">
+                    <img src="../img/SigryPortada.jpg" alt="1 imagen">
+                </div>
+                <div class="cardImage">
+                    <img src="../img/SigryPortada.jpg" alt="1 imagen">
+                </div>
+                <div class="cardImage">
+                    <img src="../img/SigryPortada.jpg" alt="1 imagen">
+                </div>
+                <div class="cardImage">
+                    <img src="../img/SigryPortada.jpg" alt="1 imagen">
+                </div>
+                <div class="cardImage">
+                    <img src="../img/SigryPortada.jpg" alt="1 imagen">
+                </div>
+                <div class="cardImage">
+                    <img src="../img/SigryPortada.jpg" alt="1 imagen">
+                </div>
+                <div class="cardImage">
+                    <img src="../img/SigryPortada.jpg" alt="1 imagen">
+                </div>
+                <div class="cardImage">
+                    <img src="../img/SigryPortada.jpg" alt="1 imagen">
+                </div>
+            </div>
+        </div>
+
+        <!-- Seleccion de cantidad para agregar a carrito -->
+        <form action="">
+            <select name="cantidad" id="cantidad">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </form>
 
     </main>
 
