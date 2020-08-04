@@ -8,6 +8,6 @@ En construcción actualmente, trabajando sobre la maquetacion en general hasta l
 para que corresponda a un e-commerce.
 
 El maquetado general es con HTML, CSS aplicando Flexbox como base primaria.
-Todavia no tengo pensado utilizar ningun framework para realidad un MVP, excepto que lo requiera el cliente.
+Todavia no tengo pensado utilizar ningun framework para realizar un MVP, excepto que lo requiera el cliente.
 
 Los avances van a poder apreciarse a medida que se vaya actualizando el repositorio, entrando al link del hosteo provisorio en Vercel.
