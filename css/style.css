@@ -24,52 +24,63 @@ ul, li, a {
 }
 
 header {
-    width: 100%;
-}
-
-.cont-header {
-    display: flex;
-    height: 115px;
-    padding: 5px 0 0;
-    justify-content: center;
-    align-items: center;
-}
-
-.cont-logo {
+    position: sticky;
+    background: #ffffff;
+    left: 0;
+    right: 0;
+    top: -2.5em;
+    padding: 2em;
+    z-index: 1001;
     display: flex;
     justify-content: center;
 }
 
 #logo {
-    width: 180px;
-    height: 180px;
-}
-
-.cont-interface {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.cont-search {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.cont-users {
     display: flex;
     justify-content: center;
+    width: 40%;
+}
+
+header #logo a {
+    display: block;
+    opacity: 1;
+}
+
+header #logo img {
+    width: 150px;
+    display: block;
+}
+
+header #links {
+    margin: 0;
+    width: 40%;
+    display: flex;
     align-items: center;
+}
+
+header #cont-links {
+    display: flex;
+}
+
+header #cont-links input {
+    display: block;
+    width: 100%;
+    color: #000;
+    text-align: left;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    text-transform: lowercase;
 }
 
 .material-icons {
-    color: black;
+    color: var(--rojo);
 }
 
 /* Navbar */
 
-nav {
+header #menu {
     display: flex;
     justify-content: center;
     font-size: 1.083em;
@@ -81,21 +92,19 @@ nav {
     width: 100%;
 }
 
-/* .cont-nav {
-    margin-top: 1rem;
-} */
-
-.cont-list {
+header #menu>ul {
     display: flex;
     justify-content: center;
-    padding: 0;
+    align-items: center;
+    max-width: 1200px;
+    box-sizing: border-box;
 }
 
-.cont-list li {
+#menu-categorias li {
     float: left;
 }
 
-.cont-list li a, .dropbtn {
+#menu-categorias li a, .dropbtn {
     color: #333;
     padding: 14px 16px;
     font-weight: 500;
@@ -103,7 +112,7 @@ nav {
     font-size: 12px;
 }
 
-.cont-list li a:hover {
+#menu-categorias li a:hover {
     color: var(--rojo);
 }
 
@@ -117,6 +126,8 @@ nav {
     left: 50%;
     transform: translateX(-50%);
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     z-index: 10;
 }
 

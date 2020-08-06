@@ -19,97 +19,90 @@
 
     <!-- Barra de navegacion, login y acceso al carro de compras -->
     <header>
-
-        <!-- contenedor superior, carrito, login y buscador -->
-        <div class="cont-header">
-            <div class="cont-interface">
-                <div class="cont-search">
-                    <input type="search">
-                    <span class="material-icons">
-                        search
-                    </span>
-                </div>
-                <div class="cont-logo">
-                    <a href="/index.html">
-                        <img id="logo" src="../img/Glen_sBoutiqueLogo.png" alt="logo">
-                    </a>
-                </div>
-                <div class="cont-users">
-                    <a href="#">
-                        <span class="material-icons">
-                            perm_identity
-                        </span>
-                    </a>
-                    <a href="#">
-                        <span class="material-icons">
-                            favorite_border
-                        </span>
-                    </a>
-                    <a href="#">
-                        <span class="material-icons">
-                            shopping_cart
-                        </span>
-                    </a>
-                </div>
-            </div>
+        <div id="logo">
+            <a href="/index.html">
+                <img id="logo" src="/img/Glen_sBoutiqueLogo.png" alt="logo">
+            </a>
         </div>
 
         <!-- nav -->
-        <div class="cont-nav">
-            <div class="navbar">
-                <nav>
-                    <ul class="cont-list">
-                        <li>
-                            <a href="../index.html">
-                                HOME</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropbtn">
-                                MARCAS</a>
-                            <div class="dropdown-content">
-                                <a href="./sigry.html">
-                                    Sigry</a>
-                                <a href="./tiento.html">
-                                    Tiento</a>
-                                <a href="./marcelakoury.html">
-                                    Marcela Koury</a>
-                                <a href="./koury.html">
-                                    Koury</a>
-                                <a href="./andressa.html">
-                                    Andressa</a>
-                                <a href="./lody.html">
-                                    Lody</a>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="./lenceria.html">
-                                LENCERIA</a></li>
-                        <li>
-                            <a href="./fitness.html">
-                                FITNESS</a></li>
-                        <li>
-                            <a href="./pijamas.html">
-                                PIJAMAS</a></li>
-                        <li>
-                            <a href="./accesorios.html">
-                                ACCESORIOS</a></li>
-                        <li>
-                            <a href="./niños.html">
-                                NIÑOS</a></li>
-                        <li>
-                            <a href="./hombres.html">
-                                HOMBRES</a></li>
-                    </ul>
-                </nav>
+
+        <nav id="menu">
+            <ul id="menu-categorias">
+                <li>
+                    <a href="../index.html">
+                        HOME</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">
+                        MARCAS</a>
+                    <div class="dropdown-content">
+                        <a href="./sigry.html">
+                            Sigry</a>
+                        <a href="./tiento.html">
+                            Tiento</a>
+                        <a href="./marcelakoury.html">
+                            Marcela Koury</a>
+                        <a href="./koury.html">
+                            Koury</a>
+                        <a href="./andressa.html">
+                            Andressa</a>
+                        <a href="./lody.html">
+                            Lody</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="./lenceria.html">
+                        LENCERIA</a></li>
+                <li>
+                    <a href="./fitness.html">
+                        FITNESS</a></li>
+                <li>
+                    <a href="./pijamas.html">
+                        PIJAMAS</a></li>
+                <li>
+                    <a href="./accesorios.html">
+                        ACCESORIOS</a></li>
+                <li>
+                    <a href="./niños.html">
+                        NIÑOS</a></li>
+                <li>
+                    <a href="./hombres.html">
+                        HOMBRES</a></li>
+            </ul>
+        </nav>
+        <div id="links">
+            <div id="cont-links">
+                <input type="search">
+                <span class="material-icons">
+                    search
+                </span>
+                <a href="../login.html">
+                    <span class="material-icons">
+                        perm_identity
+                    </span>
+                </a>
+                <a href="#">
+                    <span class="material-icons">
+                        favorite_border
+                    </span>
+                </a>
+                <a href="#">
+                    <span class="material-icons">
+                        shopping_cart
+                    </span>
+                </a>
             </div>
         </div>
+
     </header>
 
-    <!-- Contenido principal, como ofertas, nuevos lanzamientos -->
+    <!-- Contenedor de imagenes - filtro de talles y marcas -->
     <main>
-        <div class="main-contImage">
+        <section id="galeria">
 
             <!-- filtro de marcas -->
-            <div class="cont-filter">
+            <!-- <div class="cont-filter">
+
                 <label for="marca">Marca</label>
                 <span>
                     <input type="checkbox" name="tiento" id="tiento">
@@ -123,10 +116,12 @@
                 <span><input type="checkbox" name="andressa" id="andressa">
                     Andressa</span>
                 <span><input type="checkbox" name="lody" id="lody">
-                    Lody</span>
+                    Lody</span> -->
 
-                <!-- filtro de talles -->
-                <label for="talle">Talles</label>
+
+            <!-- filtro de talles -->
+
+            <!-- <label for="talle">Talles</label>
                 <span><input type="checkbox" name="xs" id="xs">
                     <label for="xs">85</label></span>
                 <span><input type="checkbox" name="s" id="s">
@@ -138,61 +133,74 @@
                 <span><input type="checkbox" name="xl" id="xl">
                     <label for="xl">105</label></span>
                 <span><input type="checkbox" name="xxl" id="xxl">
-                    <label for="xxl">110</label></span>
-            </div>
+                    <label for="xxl">110</label></span> -->
+
+
 
             <!-- Tarjeta de imagenes -->
-            <div class="cont-cardImage">
+            <!-- <div class="cont-cardImage"> -->
+            <article>
                 <div class="cardImage">
                     <img src="../img/SigryPortada.jpg" alt="1 imagen">
                 </div>
+            </article>
+            <article>
                 <div class="cardImage">
                     <img src="../img/SigryPortada.jpg" alt="2 imagen">
                 </div>
+            </article>
+            <article>
                 <div class="cardImage">
                     <img src="../img/SigryPortada.jpg" alt="3 imagen">
                 </div>
+            </article>
+            <article>
                 <div class="cardImage">
                     <img src="../img/SigryPortada.jpg" alt="4 imagen">
                 </div>
+            </article>
+            <article>
                 <div class="cardImage">
                     <img src="../img/SigryPortada.jpg" alt="5 imagen">
                 </div>
+            </article>
+            <article>
                 <div class="cardImage">
                     <img src="../img/SigryPortada.jpg" alt="6 imagen">
                 </div>
+            </article>
+            <article>
                 <div class="cardImage">
                     <img src="../img/SigryPortada.jpg" alt="7 imagen">
                 </div>
+            </article>
+            <article>
                 <div class="cardImage">
                     <img src="../img/SigryPortada.jpg" alt="8 imagen">
                 </div>
+            </article>
+            <article>
                 <div class="cardImage">
                     <img src="../img/SigryPortada.jpg" alt="9 imagen">
                 </div>
+            </article>
+            <article>
                 <div class="cardImage">
                     <img src="../img/SigryPortada.jpg" alt="10 imagen">
                 </div>
+            </article>
+            <article>
                 <div class="cardImage">
                     <img src="../img/SigryPortada.jpg" alt="11 imagen">
                 </div>
+            </article>
+            <article>
                 <div class="cardImage">
                     <img src="../img/SigryPortada.jpg" alt="12 imagen">
                 </div>
-            </div>
-        </div>
-
-        <!-- Seleccion de cantidad para agregar a carrito -->
-        <form action="">
-            <select name="cantidad" id="cantidad">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-            </select>
-        </form>
-
+            </article>
+            <!-- </div> -->
+        </section>
     </main>
 
     <!-- Acceso a preguntas frecuentes, info varia y contacto -->

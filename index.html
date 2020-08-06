@@ -15,91 +15,86 @@
 </head>
 
 <body>
-    <div class="cont-header">
-        <!-- Barra de navegacion, login y acceso al carro de compras -->
-        <header>
-            <div class="cont-interface">
-                <div class="cont-search">
-                    <input type="search">
+
+    <!-- Barra de navegacion, login y acceso al carro de compras -->
+    <header>
+        <div id="logo">
+            <a href="/index.html">
+                <img id="logo" src="/img/Glen_sBoutiqueLogo.png" alt="logo">
+            </a>
+        </div>
+
+        <!-- nav -->
+
+        <nav id="menu">
+            <ul id="menu-categorias">
+                <li>
+                    <a href="./index.html">
+                        HOME</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">
+                        MARCAS</a>
+                    <div class="dropdown-content">
+                        <a href="./pages/sigry.html">
+                            Sigry</a>
+                        <a href="./pages/tiento.html">
+                            Tiento</a>
+                        <a href="./pages/marcelakoury.html">
+                            Marcela Koury</a>
+                        <a href="./pages/koury.html">
+                            Koury</a>
+                        <a href="./pages/andressa.html">
+                            Andressa</a>
+                        <a href="./pages/lody.html">
+                            Lody</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="./pages/lenceria.html">
+                        LENCERIA</a></li>
+                <li>
+                    <a href="./pages/fitness.html">
+                        FITNESS</a></li>
+                <li>
+                    <a href="./pages/pijamas.html">
+                        PIJAMAS</a></li>
+                <li>
+                    <a href="./pages/accesorios.html">
+                        ACCESORIOS</a></li>
+                <li>
+                    <a href="./pages/niños.html">
+                        NIÑOS</a></li>
+                <li>
+                    <a href="./pages/hombres.html">
+                        HOMBRES</a></li>
+            </ul>
+        </nav>
+        <div id="links">
+            <div id="cont-links">
+                <input type="search">
+                <span class="material-icons">
+                    search
+                </span>
+                <a href="./login.html">
                     <span class="material-icons">
-                        search
+                        perm_identity
                     </span>
-                </div>
-                <div class="cont-logo">
-                    <a href="/index.html">
-                        <img id="logo" src="./img/Glen_sBoutiqueLogo.png" alt="logo">
-                    </a>
-                </div>
-                <div class="cont-users">
-                    <a href="./login.html">
-                        <span class="material-icons">
-                            perm_identity
-                        </span>
-                    </a>
-                    <a href="#">
-                        <span class="material-icons">
-                            favorite_border
-                        </span>
-                    </a>
-                    <a href="#">
-                        <span class="material-icons">
-                            shopping_cart
-                        </span>
-                    </a>
-                </div>
+                </a>
+                <a href="#">
+                    <span class="material-icons">
+                        favorite_border
+                    </span>
+                </a>
+                <a href="#">
+                    <span class="material-icons">
+                        shopping_cart
+                    </span>
+                </a>
             </div>
+        </div>
 
-            <!-- nav -->
-            <div class="cont-nav">
-                <div class="navbar">
-                    <nav>
-                        <ul class="cont-list">
-                            <li>
-                                <a href="./index.html">
-                                    HOME</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropbtn">
-                                    MARCAS</a>
-                                <div class="dropdown-content">
-                                    <a href="./pages/sigry.html">
-                                        Sigry</a>
-                                    <a href="./pages/tiento.html">
-                                        Tiento</a>
-                                    <a href="./pages/marcelakoury.html">
-                                        Marcela Koury</a>
-                                    <a href="./pages/koury.html">
-                                        Koury</a>
-                                    <a href="./pages/andressa.html">
-                                        Andressa</a>
-                                    <a href="./pages/lody.html">
-                                        Lody</a>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="./pages/lenceria.html">
-                                    LENCERIA</a></li>
-                            <li>
-                                <a href="./pages/fitness.html">
-                                    FITNESS</a></li>
-                            <li>
-                                <a href="./pages/pijamas.html">
-                                    PIJAMAS</a></li>
-                            <li>
-                                <a href="./pages/accesorios.html">
-                                    ACCESORIOS</a></li>
-                            <li>
-                                <a href="./pages/niños.html">
-                                    NIÑOS</a></li>
-                            <li>
-                                <a href="./pages/hombres.html">
-                                    HOMBRES</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
+    </header>
 
-        </header>
-    </div>
     <!-- Contenido principal, como ofertas, nuevos lanzamientos -->
     <main>
         <!-- Tarjeta de imagenes, ofertas, colecciones, otros -->
