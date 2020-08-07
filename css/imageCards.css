@@ -59,6 +59,37 @@ article {
     font-size: .85em;
 }
 
+/* pagination */
+
+.center {
+    text-align: center;
+    padding: 1em 0 5em 0;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border-radius: 5px;
+}
+
+.pagination a.active {
+    background-color: rgb(217, 35, 50);
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    color: white;
+    background-color: rgb(217, 35, 50);
+    
+}
+
 /* .cont-filter {
     display: inline-grid;
     grid-template-columns: auto;
