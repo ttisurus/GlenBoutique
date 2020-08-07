@@ -32,6 +32,7 @@ header {
     z-index: 1001;
     display: flex;
     justify-content: center;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 #logo {
@@ -119,7 +120,7 @@ header #menu>ul {
     display: none;
     position: absolute;
     background-color: var(--white);
-    margin-top: 0.5rem;
+    /* margin-top: 0.5rem; */
     max-width: 100%;
     width: 70%;
     left: 50%;
