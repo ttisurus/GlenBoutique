@@ -27,24 +27,39 @@
                                     <img src="./img/Glen_sBoutiqueLogo.png" alt="logo" class="logo">
                                 </a>
                             </div>
-                            <p class="login-card-description">Ingresá</p>
+                            <p class="login-card-description">Registro</p>
                             <form action="#!">
+                                <div class="form-group">
+                                    <label for="nombre" class="sr-only">Nombre</label>
+                                    <input type="text" name="nombre" id="nombre" class="form-control"
+                                        placeholder="Ingresa tu nombre" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="apellido" class="sr-only">Apellido</label>
+                                    <input type="text" name="apellido" id="apellido" class="form-control"
+                                        placeholder="Ingresa tu apellido" required>
+                                </div>
                                 <div class="form-group">
                                     <label for="email" class="sr-only">E-mail</label>
                                     <input type="email" name="email" id="email" class="form-control"
-                                        placeholder="Ingresá tu usuario" required>
+                                        placeholder="Ingresa tu e-mail" required>
                                 </div>
                                 <div class="form-group mb-4">
                                     <label for="password" class="sr-only">Contraseña</label>
                                     <input type="password" name="password" id="password" class="form-control"
-                                        placeholder="Ingresá tu e-mail" required>
+                                        placeholder="Ingresa tu contraseña" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="telefono" class="sr-only">Telefono</label>
+                                    <input type="number" name="telefono" id="telefono" class="form-control"
+                                        placeholder="Ingresa tu telefono" required>
                                 </div>
                                 <input name="login" id="login" class="btn btn-block login-btn mb-4" type="button"
-                                    value="Login">
+                                    value="Registrate">
                             </form>
-                            <a href="#!" class="forgot-password-link">Olvidaste tu contraseña?</a>
-                            <p class="login-card-footer-text">No tienes una cuenta? <a href="form-registro.html"
-                                    class="text-reset"><span id="register">Registrate acá</span></a></p>
+                           <!--  <a href="#!" class="forgot-password-link">Olvidaste tu contraseña?</a>
+                            <p class="login-card-footer-text">No tienes una cuenta? <a href="#!"
+                                    class="text-reset"><span id="register">Registrate aquí</span></a></p> -->
                         </div>
                     </div>
                 </div>
