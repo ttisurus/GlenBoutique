@@ -95,7 +95,7 @@ header #menu > ul {
   color: #d92332; }
 
 .dropdown-content {
-  display: block;
+  display: none;
   position: absolute;
   background-color: #fff;
   /* margin-top: 0.5rem; */
