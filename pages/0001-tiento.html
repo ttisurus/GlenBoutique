@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
         integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <!-- styles -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
@@ -28,56 +29,53 @@
         <nav id="menu">
             <ul id="menu-categorias">
                 <li>
-                    <a href="./index.html">
+                    <a href="../index.html">
                         HOME</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropbtn">
                         MARCAS</a>
                     <div class="dropdown-content">
-                        <a href="./pages/sigry.html">
+                        <a href="./sigry.html">
                             Sigry</a>
-                        <a href="./pages/tiento.html">
+                        <a href="./tiento.html">
                             Tiento</a>
-                        <a href="./pages/marcelakoury.html">
+                        <a href="./marcelakoury.html">
                             Marcela Koury</a>
-                        <a href="./pages/koury.html">
+                        <a href="./koury.html">
                             Koury</a>
-                        <a href="./pages/andressa.html">
+                        <a href="./andressa.html">
                             Andressa</a>
-                        <a href="./pages/lody.html">
+                        <a href="./lody.html">
                             Lody</a>
                     </div>
                 </li>
                 <li>
-                    <a href="./pages/lenceria.html">
+                    <a href="./lenceria.html">
                         LENCERIA</a></li>
                 <li>
-                    <a href="./pages/fitness.html">
+                    <a href="./fitness.html">
                         FITNESS</a></li>
                 <li>
-                    <a href="./pages/pijamas.html">
+                    <a href="./pijamas.html">
                         PIJAMAS</a></li>
                 <li>
-                    <a href="./pages/accesorios.html">
+                    <a href="./accesorios.html">
                         ACCESORIOS</a></li>
                 <li>
-                    <a href="./pages/niños.html">
+                    <a href="./niños.html">
                         NIÑOS</a></li>
                 <li>
-                    <a href="./pages/hombres.html">
+                    <a href="./hombres.html">
                         HOMBRES</a></li>
             </ul>
         </nav>
-
-        <!-- login, fav y carrito -->
-
         <div id="links">
             <div id="cont-links">
                 <input type="search">
                 <span class="material-icons">
                     search
                 </span>
-                <a href="./login.html">
+                <a href="../login.html">
                     <span class="material-icons">
                         perm_identity
                     </span>
@@ -97,81 +95,46 @@
 
     </header>
 
-    <!-- Contenido principal, como ofertas, nuevos lanzamientos -->
+    <!-- Contenedor de imagenes - filtro de talles y marcas -->
     <main>
-        <!-- Tarjeta de imagenes, ofertas, colecciones, otros -->
-        <section>
+        <!-- <div id="modelo">
+            <h1>Tiento</h1>
+        </div> -->
+        <article id="ficha">
 
-            <div class="cont-cards">
-                <div class="colection-card">
-                    <img src="./img/MarcelaKouryPortada.jpg" alt="coleccion">
+            <section id="galeria">
+                <div class="fotos">
+                    <img src="../img/SigryPortada.jpg" alt="1 imagen">
                 </div>
-                <div class="cont-sub">
-                    <div class="sub-cards">
-                        <img src="./img/KouryPortada.jpg" alt="ofertas">
+            </section>
+            <section id="datos">
+                <div id="">
+                    <h3>Modelo:</h3><span>0001</span>
+                    <div>
+                        <span>Talle:</span>
+                        <div>
+                            <button>85</button>
+                            <button>90</button>
+                            <button>95</button>
+                            <button>100</button>
+                            <button>105</button>
+                            <button>110</button>
+                        </div>
                     </div>
-                    <div class="sub-cards">
-                        <img src="./img/LodyPortada.jpg" alt="lanzamientos">
+                    <span>Color:</span>
+                    <div>
+                        <input type="button">Blue
+                        <input type="button">Red
                     </div>
-                    <div class="sub-cards">
-                        <img src="./img/SigryPortada.jpg" alt="fitness">
-                    </div>
-                    <div class="sub-cards">
-                        <img src="./img/TientoPortada.jpg" alt="lenceria">
+                    <h2>Precio:</h2><span>$99,99</span>
+                    <div>
+                        <button type="button">Comprar</button>
                     </div>
                 </div>
-            </div>
+            </section>
 
-        </section>
-        <section>
-            <div class="cont-brandie">
-                <div class="brandie-top">
-                    <img src="./img/AndressaLogo.png" alt="">
-                </div>
-                <div class="brandie-bot">
-                    <img src="./img/MarcelaKouryLogo.jpg" alt="">
-                </div>
-                <div class="brandie-top">
-                    <img src="./img/KauryLogo.png" alt="">
-                </div>
-                <div class="brandie-bot">
-                    <img id="tiento" src="./img/TientoLogo.png" alt="">
-                </div>
-                <div class="brandie-top">
-                    <img src="./img/SigryLogo.png" alt="">
-                </div>
-                <div class="brandie-bot">
-                    <img src="./img/LodyLogo.png" alt="">
-                </div>
-            </div>
-        </section>
+        </article>
     </main>
-
-    <!-- seccion ofertas, lanzamientos, combos -->
-    <section class="cont-launch">
-        <div class="launch">
-            <img src="./img/Diseño sin título.png" alt="">
-        </div>
-    </section>
-
-    <!-- banner -->
-
-    <div class="cont-banner">
-        <div class="cont-form">
-            <form action="" id="" method="POST">
-                <div class="cont-newslatter">
-                    <label for="">Suscribite a nuestro newsletter y recibe las mejores promociones...</label>
-                </div>
-                <div class="cont-newslatter">
-                    <input type="email" name="email" id="input-newslatter" placeholder="Ingresa tu e-mail">
-                    <div class="buttons-set">
-                        <button type="submit" title="Suscribite" class="button">Suscribirme</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-
 
     <!-- Acceso a preguntas frecuentes, info varia y contacto -->
     <footer>
@@ -222,6 +185,7 @@
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>

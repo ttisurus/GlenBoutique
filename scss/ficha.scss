@@ -1,0 +1,14 @@
+@media only screen and (min-width: 768px) {
+    #ficha {
+        display: flex;
+        justify-content: center;
+        min-height: 47em;
+        margin: 2em auto 0;
+        width: 100em;
+    }
+
+    .fotos img {
+        width: 450px;
+        height: 550px;
+    }
+}

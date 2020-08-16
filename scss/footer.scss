@@ -1,0 +1,79 @@
+/* Footer Social Media */
+
+footer {
+    box-sizing: border-box;
+    clear: both;
+    margin: 0 auto;
+    font-size: 0.5em;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.cont-footer {
+    padding: 40px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#help {
+    color: $color-secondary-font;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+#info {
+    color: $color-secondary-font;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+footer .link-footer h3 {
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: none;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+footer .content a {
+    font-weight: 400;
+    color: inherit;
+    font-size: 12px;
+    letter-spacing: 0;
+}
+
+#cont-media {
+    color: $color-secondary-font;
+}
+
+.media {
+    display: flex;
+    align-items: center;
+}
+
+.background-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-brand;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.name-media {
+    align-items: center;
+    color: $color-secondary-font;
+    font-size: 0.6rem;
+}
+
+.social {
+    color: $color-background;
+}

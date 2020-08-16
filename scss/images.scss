@@ -1,9 +1,9 @@
 #galeria {
     clear: both;
-    margin: 3em auto;
+    margin: 8em auto;
     font-size: 1.25em;
-    width: 85.95%;
-    width: 1030px;
+    width: 80%;
+    max-width: 1030px;
     display: grid;
     grid-gap: 2em;
     grid-template-columns: 1fr 1fr 1fr;
@@ -87,11 +87,11 @@ article {
     background-color: rgb(217, 35, 50);
 }
 
-/* .cont-filter {
+/*  .cont-filter {
     display: inline-grid;
     grid-template-columns: auto;
     grid-template-rows: 1fr;
     width: 40%;
     text-align: left;
     padding: 3rem 0 0 2rem;
-}
+}  */
