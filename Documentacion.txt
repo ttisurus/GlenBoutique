@@ -1,0 +1,7 @@
+Documentacion de mejoras de posicionamiento:
+
+-Modificacion de los titulos en todas las pestañas de la pagina.
+-Agregado de seccion en donde se encuentra en cada pestaña de pagina.
+-Ingreso de etiqueta meta con descripcion, dando una oracion corta sobre lo que brindamos.
+-Agregado de etiqueta meta con keywords utilizadas en la industria de la ropa interior.
+-Seccion "Login" completamente responsive.

@@ -1,12 +1,12 @@
-@import "variables";
+@import "_variables";
 
 /* Imports de estilos estaticos de uso comun */
-@import "header";
-@import "footer";
+@import "_header";
+@import "_footer";
 
 /* Imports de las diferentes secciones */
 @import "./login.scss";
-@import "./content-index.scss";
+@import "./_content-index.scss";
 @import "./images.scss";
 @import "./ficha.scss";
 @import "./contacto.scss";
