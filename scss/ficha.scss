@@ -1,9 +1,12 @@
+body {
+    height: 100vh;
+}
+
 @media only screen and (min-width: 768px) {
     #ficha {
         display: flex;
         justify-content: center;
-        height: 100vh;
-        margin: 5em 0 0 0;
+        margin: 5em 0 5em 0;
         #cont_foto,
         #datos {
             margin: 0 2em;
@@ -19,7 +22,18 @@
     }
 }
 
-/* #carrusel {
-    width: 100%;
-    height: 250px;
-} */
+#cont-cards {
+    width: 1120px;
+    margin: auto;
+}
+
+.info-card {
+    padding: 1em;
+    margin: 0 1em 0 1em;
+    border: none;
+
+    .image {
+        border-top-left-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+    }
+}
