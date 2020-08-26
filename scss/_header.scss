@@ -1,10 +1,10 @@
 header {
     position: sticky;
-    background: #fff;
+    background: $color-background;
     left: 0;
     right: 0;
     height: 5.75em;
-    top: -0.3em;
+    top: -0.3em;    
     z-index: 1001;
     display: flex;
     justify-content: center;
@@ -63,7 +63,7 @@ header #menu {
     letter-spacing: 0.1em;
     text-align: center;
     line-height: 3.5;
-    margin: 0 auto;
+    margin-right: 1em;
     box-sizing: border-box;
     width: 100%;
 }
@@ -91,8 +91,8 @@ header #menu > ul {
 
 #menu-categorias li a:hover {
     color: $color-brand;
-    border-bottom: 2px solid $color-brand;
-    transition: 0.6s;
+    border-bottom: 1px solid $color-brand;
+    opacity: .75;
 }
 
 .dropdown-content {

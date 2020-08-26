@@ -83,7 +83,7 @@ header #menu {
   letter-spacing: 0.1em;
   text-align: center;
   line-height: 3.5;
-  margin: 0 auto;
+  margin-right: 1em;
   box-sizing: border-box;
   width: 100%; }
 
@@ -107,8 +107,8 @@ header #menu > ul {
 
 #menu-categorias li a:hover {
   color: #d92332;
-  border-bottom: 2px solid #d92332;
-  transition: 0.6s; }
+  border-bottom: 1px solid #d92332;
+  opacity: .75; }
 
 .dropdown-content {
   display: none;
@@ -525,6 +525,7 @@ body {
 ul, li, a, button {
   text-decoration: none;
   list-style-type: none;
+  transition: 250ms ease-in-out;
   cursor: pointer; }
 
 /* banner */

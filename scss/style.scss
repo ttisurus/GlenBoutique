@@ -28,6 +28,7 @@ body {
 ul, li, a, button {
     text-decoration: none;
     list-style-type: none;
+    transition: 250ms ease-in-out;
     cursor: pointer;
 }
 
