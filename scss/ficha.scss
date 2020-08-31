@@ -2,6 +2,10 @@ body {
     height: 100vh;
 }
 
+#ficha {
+    max-width: 1440px;
+}
+
 @media only screen and (min-width: 768px) {
     #ficha {
         display: flex;
@@ -22,6 +26,217 @@ body {
     }
 }
 
+/* Seccion precio e info de producto */
+#info {
+    width: 20%;
+}
+
+#info .encabezado {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+
+#info h1 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    text-transform: capitalize;
+    width: 70%;
+}
+
+#info .price-box {
+    margin: 0;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+}
+
+#info .price-box span {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+}
+
+/* Seleccion de color */
+.atributo {
+    display: flex;
+    flex-direction: column;
+    clear: left;
+    margin-bottom: 1.5em;
+}
+
+.nombreatributo {
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-size: 1em;
+    margin: 1.25em 0 1em;
+    color: #1d1d1b;
+}
+
+.swatchContainer {
+    display: inline;
+}
+
+.atributo .swatchesContainer ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.atributo .swatchesContainer ul li {
+    margin-right: 0.75em;
+}
+
+img.swatch {
+    padding: 3px;
+}
+
+.swatch {
+    line-height: 2.5;
+    width: 2.5em !important;
+    height: 2.5em !important;
+    text-align: center;
+    border: 1px solid transparent;
+    color: #000000;
+    font-weight: normal;
+    border-radius: 50%;
+    transition: 250ms ease-in-out;
+}
+
+.buy-button-box {
+    margin-top: 18px;
+    align-items: center;
+    display: flex;
+}
+
+.buy-button-box .buy-in-page-quantity {
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.08);
+    width: 46px;
+    height: 42px;
+    margin-right: 10px;
+    display: flex;
+    text-align: center;
+}
+
+.buy-button-box .buy-in-page-button::before {
+    content: "";
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.buy-button-box .buy-in-page-button::after {
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: sans-serif;
+    white-space: nowrap;
+}
+
+/* Boton favoritos */
+/* #info .botones_wishlist {
+    position: relative;
+    z-index: 1;
+    color: #000;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+#info .botones_wishlist a {
+    color: #848484;
+    font-size: 10px;
+    text-transform: none;
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+#info .botones_wishlist #corazon_1 {
+    width: 20px;
+    z-index: -9999;
+    position: absolute;
+    margin-left: 90%;
+    img {
+        max-width: 100%;
+    }
+} */
+
+/* Seleccion de cantidad */
+/* #cantidad {
+    display: block;
+    clear: left;
+    position: relative;
+    margin-bottom: 2em;
+}
+
+#cantidad h3 {
+    display: inline-block;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#cantidad select {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-color: transparent transparent #000000 transparent;
+    padding-right: 1.75em;
+    width: auto;
+}
+
+select {
+    -webkit-appearance: none;
+    appearance: none;
+    text-indent: 0.01px;
+    text-overflow: "";
+    background: #ffffff url("../images/flecha-select.svg") no-repeat right 0.75em center / auto 25%;
+    outline: none;
+    color: #8a8a8a;
+    border: 1px solid #bbbbba;
+    padding: 1em;
+    border-radius: 0.1em;
+    border-top-right-radius: 0.1em;
+    border-bottom-right-radius: 0.1em;
+    width: 16em;
+    margin-top: 0.25em;
+    text-transform: none;
+    font-family: inherit;
+    font-size: 100%;
+} */
+
+/* boton de compra */
+/* #comprar {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 1em;
+}
+
+#comprar button {
+    font-size: 10px;
+    vertical-align: middle;
+    font-weight: 400;
+    line-height: 1.6;
+    padding: 14px 10.9em;
+    letter-spacing: 0.16em;
+    min-width: 6.9em;
+    width: 100%;
+    background: #6b6b6b;
+    text-transform: lowercase;
+    transition: none ease-in-out;
+} */
+
+/* Tarjeta de imagenes recomendadas */
 #cont-cards {
     width: 1120px;
     margin: auto;
