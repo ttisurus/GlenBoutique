@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* @mixin boton {
     propiedad: valor;
 }
@@ -484,8 +485,9 @@ article {
 body {
   height: 100vh; }
 
-#ficha {
-  max-width: 1440px; }
+section #ficha {
+  max-width: 1440px;
+  margin: auto; }
 
 @media only screen and (min-width: 768px) {
   #ficha {
@@ -493,43 +495,52 @@ body {
     justify-content: center;
     margin: 5em 0 5em 0; }
     #ficha #cont_foto,
-    #ficha #datos {
+    #ficha #info {
       margin: 0 2em; }
     #ficha #foto {
       width: 420px;
       height: 480px; }
     #ficha img {
-      max-width: 100%;
-      max-height: 100%; } }
+      width: 100%;
+      height: 100%; } }
 
 /* Seccion precio e info de producto */
 #info {
   width: 20%; }
 
-#info .encabezado {
+#info .product-name {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   margin-bottom: 0.5em; }
 
-#info h1 {
-  font-size: 18px;
-  font-weight: 400;
+#info .product-name h1 {
+  width: 90%; }
+
+.product-name .productName {
   color: #000;
-  text-transform: capitalize;
-  width: 70%; }
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+  font-family: sans-serif;
+  letter-spacing: 1px; }
+
+.product-name .productReference {
+  font-family: sans-serif;
+  color: #a9a9a9;
+  font-size: 12px;
+  margin-bottom: 12px;
+  margin-top: 5px;
+  width: 90%; }
 
 #info .price-box {
-  margin: 0;
-  color: #000000;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 0.12em; }
+  margin-bottom: 15px; }
 
 #info .price-box span {
   color: #000;
   font-size: 18px;
   font-weight: 500;
+  font-family: sans-serif;
   letter-spacing: 0.12em; }
 
 /* Seleccion de color */
@@ -539,10 +550,13 @@ body {
   clear: left;
   margin-bottom: 1.5em; }
 
-.nombreatributo {
+.nombre-atributo {
   font-weight: 500;
   letter-spacing: 0.12em;
   text-transform: capitalize; }
+
+.nombre-atributo::after {
+  content: ":"; }
 
 h3 {
   font-size: 1em;
@@ -559,7 +573,7 @@ h3 {
 .atributo .swatchesContainer ul li {
   margin-right: 0.75em; }
 
-img.swatch {
+img .swatch {
   padding: 3px; }
 
 .swatch {
@@ -573,29 +587,106 @@ img.swatch {
   border-radius: 50%;
   transition: 250ms ease-in-out; }
 
+/* seleccion de talle */
+.specification {
+  display: block;
+  color: #333;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: inherit;
+  letter-spacing: 2px;
+  line-height: 17px;
+  margin-bottom: 5px; }
+
+.Talle .specification::after {
+  content: ":"; }
+
+.select > span {
+  display: block; }
+
+.select .sku-selector {
+  display: none; }
+
+.select label {
+  font-family: sans-serif;
+  float: left;
+  color: #777;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 6px;
+  margin: 5px 5px 0 0;
+  cursor: pointer;
+  transition: all .3s; }
+
+.Talle .select label:hover {
+  border-bottom: 1px solid #d92332;
+  color: #d92332; }
+
+.Talle .select label {
+  border: none;
+  border-radius: 0;
+  margin: 10px 15px 0 0;
+  border-bottom: 1px solid transparent;
+  padding: 5px;
+  color: #333;
+  font-weight: 400; }
+
+.select > span::after {
+  display: block;
+  content: "";
+  clear: both; }
+
+/* boton de compra */
 .buy-button-box {
   margin-top: 18px;
   align-items: center;
   display: flex; }
 
 .buy-button-box .buy-in-page-quantity {
+  display: block;
   background: #fff;
   border: 1px solid #ccc;
   box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.08);
   width: 46px;
   height: 42px;
   margin-right: 10px;
-  display: flex;
   text-align: center; }
 
-.buy-button-box .buy-in-page-button::before {
-  content: "";
-  width: 17px;
-  height: 17px;
-  display: inline-block;
-  margin-right: 10px; }
+input {
+  color: #222;
+  line-height: normal;
+  font-size: 100%;
+  margin: 0; }
+
+.buy-button-box .buy-in-page-button.disponible {
+  cursor: pointer;
+  display: flex !important; }
+
+.buy-button-box .buy-in-page-button {
+  align-items: center;
+  border: 1px solid #d92332;
+  border-radius: 35px;
+  height: 46px;
+  line-height: 44px;
+  color: #d92332;
+  font-size: 0;
+  font-weight: 700;
+  text-align: center;
+  float: left;
+  padding: 5px 35px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out; }
+
+.buy-button-box .buy-in-page-button:hover {
+  background-color: #d92332;
+  color: #fff; }
 
 .buy-button-box .buy-in-page-button::after {
+  content: "¡LO QUIERO!";
   display: inline-block;
   font-size: 12px;
   letter-spacing: 1px;

@@ -99,53 +99,29 @@
 
     <!-- Contenedor de imagenes - filtro de talles y marcas -->
     <main>
-        <!-- <div id="modelo">
-            <h1>Tiento</h1>
-        </div> -->
-        <article id="ficha">
-            <section id="cont_foto">
+        <section id="ficha">
+            <!-- foto -->
+            <article id="cont_foto">
                 <div id="foto">
                     <img src="../img/SigryPortada.jpg" alt="1 imagen">
                 </div>
-            </section>
-            <!-- <section id="datos">
-                <div id="">
-                    <h3>Modelo:</h3><span>0001</span>
-                    <div>
-                        <span>Talle:</span>
-                        <div>
-                            <button>85</button>
-                            <button>90</button>
-                            <button>95</button>
-                            <button>100</button>
-                            <button>105</button>
-                            <button>110</button>
-                        </div>
-                    </div>
-                    <span>Color:</span>
-                    <div>
-                        <input type="button">Blue
-                        <input type="button">Red
-                    </div>
-                    <h2>Precio:</h2><span>$99,99</span>
-                    <div>
-                        <button class="clear-btn red">Comprar</button>
-                    </div>
-                </div>
-            </section> -->
+            </article>
 
-
+            <!-- info de producto, talles, precio, codigo -->
             <section id="info">
-                <div class="encabezado">
-                    <h1 id="nombreProducto">Sin Aro Cotton Basics</h1>
+                <div class="product-name">
+                    <h1>
+                        <div class="productName">Pantufla de rústico &amp; polar</div>
+                    </h1>
+                    <div class="productReference">PI1545</div>
                     <div class="price-box">
                         <span class="price">$&nbsp;2.100</span>
                         </span>
                     </div>
                 </div>
                 <div id="opcionesproducto">
-                    <div class="familiacols atributo">
-                        <h3 class="nombreatributo"><span class="label">Color</span></h3>
+                    <div class="atributo">
+                        <h3 class="nombre-atributo"><span class="label">Color</span></h3>
                         <div class="swatchesContainer">
                             <ul>
                                 <li class="swatchContainer"><a href="#"><img class="swatch swatchSelected"
@@ -161,44 +137,35 @@
                         </div>
                     </div>
 
+                    <!-- Seleccion de talles -->
+                    <ul class="Talle">
+                        <p class="specification">Talles</p>
+                        <li class="select">
+                            <span class="group_1">
+                                <input type="radio" name="" class="label sku-selector" id="">
+                                <label>35</label>
+                                <input type="radio" name="" class="label sku-selector" id="">
+                                <label>36</label>
+                                <input type="radio" name="" class="label sku-selector" id="">
+                                <label>37</label>
+                                <input type="radio" name="" class="label sku-selector" id="">
+                                <label>38</label>
+                                <input type="radio" name="" class="label sku-selector" id="">
+                                <label>39</label>
+                                <input type="radio" name="" class="label sku-selector" id="">
+                                <label>40</label>
+                            </span>
+                        </li>
+                    </ul>
 
                     <div class="buy-button-box hidden-xs">
-                        <input size="20" type="text" value="1" productindex="0" class="buy-in-page-quantity"
-                            style="display: block;">
-                        <a class="buy-in-page-button buy-buttom-custom disponible" productindex="0">¡LO QUIERO!</a>
+                        <input size="20" type="text" value="1" productindex="0" class="buy-in-page-quantity">
+                        <a class=" buy-in-page-button buy-buttom-custom disponible" productindex="0">
+                            ¡LO QUIERO!</a>
                     </div>
-                    <!-- Agregar favorito -->
-                    <!-- <div class="botones_wishlist">
-                        <a class="texto_favoritos" href="#">Agregalo a tus favoritos</a>
-                        <img class="corazon_1"
-                            src="https://statics.glamit.com.ar/skin/frontend/default/carocuore21/images/corazon.svg"
-                            alt="">
-                    </div> -->
-
-                    <!-- Boton comprar // Seleccion de cantidad -->
-                    <!-- <div class="product-options-bottom">
-                        <div id="cantidad">
-                            <h3>Cantidad:</h3>
-                            <select name="qty" id="input-quantity">
-                                <option value="1" selected="">01</option>
-                                <option value="2">02</option>
-                                <option value="3">03</option>
-                                <option value="4">04</option>
-                                <option value="5">05</option>
-                                <option value="6">06</option>
-                                <option value="7">07</option>
-                                <option value="8">08</option>
-                                <option value="9">09</option>
-                                <option value="10">10</option>
-                            </select>
-                        </div>
-                        <div id="comprar">
-                            <button type="button">Comprar</button>
-                        </div>
-                    </div>
+                </div>
             </section>
- -->
-        </article>
+        </section>
 
 
         <!-- Productos recomendados dentro de cada imagen -->
